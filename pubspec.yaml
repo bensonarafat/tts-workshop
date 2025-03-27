@@ -1,0 +1,32 @@
+name: tts_workshop
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  google_generative_ai: ^0.4.6  # Google AI library for generating text and speech-related AI functionalities
+  http: ^1.3.0 # HTTP client for making network requests
+  path_provider: ^2.1.5  # Helps find file system paths for storing files
+  just_audio: ^0.9.46 # Audio playback library for playing local and remote audio files
+  file_picker: ^9.2.2 # Allows users to pick files from their device storage
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/  # Directory for storing asset files like images, audio, or configuration files
