@@ -22,5 +22,7 @@ Build
 flutter run 
 ```
 
+Having issues? you can read this article on how to get started https://medium.com/@bensonarafat/building-intelligent-audio-applications-with-gemini-ai-and-google-cloud-build-with-ai-2025-e919c2120a23 
+
 Thank you! 
 Connect with via X @bensonarafat

@@ -22,6 +22,13 @@ class _AudioUnderstandingScreenState extends State<AudioUnderstandingScreen> {
   /// Controller for handling user input in the text field.
   TextEditingController textEditingController = TextEditingController();
   File? selectedAudioFile;
+
+  @override
+  void initState() {
+    loadDefaultAudio();
+    super.initState();
+  }
+
   @override
   void dispose() {
     /// Dispose the controller to free resources when the widget is removed.
