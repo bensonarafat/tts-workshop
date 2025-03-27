@@ -1,16 +1,26 @@
-# tts_workshop
+# Build With AI GDG Abuja 2025
 
-A new Flutter project.
+## Building Intelligent Audio Applications with Gemini AI and Google Cloud
 
-## Getting Started
+Clone Repo
+```bash 
+git clone https://github.com/bensonarafat/tts-workshop.git
+```
 
-This project is a starting point for a Flutter application.
+clean project 
+```bash
+flutter clean 
+```
 
-A few resources to get you started if this is your first Flutter project:
+Pub get 
+```bash
+flutter pub get
+``` 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Build 
+```bash
+flutter run 
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Thank you! 
+Connect with via X @bensonarafat

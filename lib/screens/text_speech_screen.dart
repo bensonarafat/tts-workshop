@@ -16,7 +16,6 @@ class _TextSpeechScreenState extends State<TextSpeechScreen> {
   @override
   void dispose() {
     /// Dispose the controller to free resources when the widget is removed.
-
     textEditingController.dispose();
     super.dispose();
   }
