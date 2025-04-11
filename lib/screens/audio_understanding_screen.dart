@@ -5,6 +5,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
+import 'package:tts_workshop/constants.dart';
 import 'package:tts_workshop/widgets/app_button.dart';
 import 'package:tts_workshop/widgets/audio_widget.dart';
 
@@ -25,6 +26,7 @@ class _AudioUnderstandingScreenState extends State<AudioUnderstandingScreen> {
 
   @override
   void initState() {
+    textEditingController.text = Contants.prompts[1];
     loadDefaultAudio();
     super.initState();
   }
@@ -85,9 +87,9 @@ class _AudioUnderstandingScreenState extends State<AudioUnderstandingScreen> {
   Future<void> loadDefaultAudio() async {
     try {
       // Load audio from assets
-      final byteData = await rootBundle.load('assets/neil_armstrong.mp3');
+      final byteData = await rootBundle.load('assets/i_have_a_dream.mp3');
       final file =
-          File('${(await getTemporaryDirectory()).path}/neil_armstrong.mp3');
+          File('${(await getTemporaryDirectory()).path}/i_have_a_dream.mp3');
       await file.writeAsBytes(byteData.buffer.asUint8List());
 
       setState(() {
