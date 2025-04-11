@@ -26,7 +26,7 @@ class _AudioUnderstandingScreenState extends State<AudioUnderstandingScreen> {
 
   @override
   void initState() {
-    textEditingController.text = Contants.prompts[1];
+    textEditingController.text = Constants.prompts[1];
     loadDefaultAudio();
     super.initState();
   }
