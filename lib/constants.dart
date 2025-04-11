@@ -2,7 +2,7 @@ class Contants {
   ///
   /// You need an API key to call the Gemini API. If you don't already have one, create a key in Google AI Studio.
   /// https://aistudio.google.com/app/apikey
-  static String googleAPIKey = "AIzaSyBhFDKtL8Szh-yrFJxzXNnmneTThzziF_I";
+  static String googleAPIKey = "[API KEY HERE]";
 
   /// Text to Speech API
   static String googleTextUrl =
