@@ -14,9 +14,9 @@ class Contants {
     /// Gemini AI prompts
     "Generate a transcript of the speech.",
     "Provide a transcript of the speech from 00:00 to 00:00.",
-    "Who is the speaker in the audio?"
+    "Who is the speaker in the audio?",
 
-        /// Google TTS prompts
-        "Hello and welcome! Today, we’re exploring the amazing world of intelligent audio applications. With the power of Google Cloud and Gemini AI, we can teach machines to listen, understand, and even talk back — just like humans. Let’s get started!"
+    /// Google TTS prompts
+    "Hello and welcome! Today, we’re exploring the amazing world of intelligent audio applications. With the power of Google Cloud and Gemini AI, we can teach machines to listen, understand, and even talk back — just like humans. Let’s get started!"
   ];
 }
